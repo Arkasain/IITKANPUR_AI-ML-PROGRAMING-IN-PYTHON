@@ -1,0 +1,10 @@
+import numpy as np
+n4= np.array([10,-1,0,90,300,3,-6,2])
+print("before : n4=",n4)
+n5 = sorted (n4, reverse=True)   ## standard python function(sortred)
+print("n5=",n5)
+print("after : n4 = ",n4)
+n4.sort()
+print("after n4.sort() = ", n4)
+print("after n4.sort() =",list(reversed(n4)) )
+print("after n4.sort() =",tuple(reversed(n4)) )
